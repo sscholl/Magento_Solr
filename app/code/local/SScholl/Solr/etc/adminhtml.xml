@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<acl>
+		<resources>
+			<admin>
+				<children>
+					<system>
+						<children>
+							<config>
+								<children>
+									<sschollsolr translate="title" module="sschollsolr">
+										<title>Solr Config</title>
+									</sschollsolr>
+								</children>
+							</config>
+						</children>
+					</system>
+				</children>
+			</admin>
+		</resources>
+	</acl>
+</config>

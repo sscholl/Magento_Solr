@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<config>
+	<modules>
+		<SScholl_Solr>
+			<version>0.0.1</version>
+		</SScholl_Solr>
+	</modules>
+	<global>
+		<helpers>
+			<sschollsolr>
+				<class>SScholl_Solr_Helper</class>
+			</sschollsolr>
+		</helpers>
+		<models>
+			<sschollsolr>
+				<class>SScholl_Solr_Model</class>
+			</sschollsolr>
+		</models>
+	</global>
+</config>
